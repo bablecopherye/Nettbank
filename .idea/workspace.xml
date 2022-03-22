@@ -1,9 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="RunManager">
+  <component name="ChangeListManager">
+    <list default="true" id="06e99e7e-42c8-4cf9-adb5-6d28784ce6f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestAdminKontoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestAdminKundeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestAdminKundeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestBankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestBankController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/API/AdminKontoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/API/AdminKontoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/API/AdminKundeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/API/AdminKundeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/API/BankController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/API/BankController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/DAL/AdminRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/DAL/AdminRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/DAL/BankRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/DAL/BankRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/Main_Nettbank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/Main_Nettbank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/Models/Konto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/Models/Konto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/Models/Kunde.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/Models/Kunde.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/Models/Transaksjon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/Models/Transaksjon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oslomet/testing/Sikkerhet/Sikkerhet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oslomet/testing/Sikkerhet/Sikkerhet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/oslomet/testing/EnhetstestBankController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/oslomet/testing/EnhetstestBankController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="26PsYhOxlsCFwNC4A320wiBjyH3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="oslomet.testing" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="oslomet.testing.API" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EnhetstestAdminKundeController">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhetstestAdminKundeController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oslomet.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oslomet.testing" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhetstestAdminKundeController.hentAlle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oslomet.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oslomet.testing" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
+      <option name="METHOD_NAME" value="hentAlle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhetstestAdminKundeController.hentAlle_ikkeLoggetInn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oslomet.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oslomet.testing" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
+      <option name="METHOD_NAME" value="hentAlle_ikkeLoggetInn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhetstestAdminKundeController.hentAlle_loggetInn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oslomet.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oslomet.testing" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
+      <option name="METHOD_NAME" value="hentAlle_loggetInn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhetstestBankController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oslomet.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oslomet.testing" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestBankController" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main_Nettbank" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="testing" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="oslomet.testing.Main_Nettbank" />
@@ -11,5 +174,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EnhetstestAdminKundeController" />
+        <item itemvalue="JUnit.EnhetstestBankController" />
+        <item itemvalue="JUnit.EnhetstestAdminKundeController.hentAlle_loggetInn" />
+        <item itemvalue="JUnit.EnhetstestAdminKundeController.hentAlle_ikkeLoggetInn" />
+        <item itemvalue="JUnit.EnhetstestAdminKundeController.hentAlle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06e99e7e-42c8-4cf9-adb5-6d28784ce6f5" name="Default Changelist" comment="" />
+      <created>1647336607700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647336607700</updated>
+      <workItem from="1647336611261" duration="4607000" />
+      <workItem from="1647553248186" duration="9538000" />
+      <workItem from="1647864561781" duration="761000" />
+      <workItem from="1647943037787" duration="10031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testing$EnhetstestBankController.ic" NAME="EnhetstestBankController Coverage Results" MODIFIED="1647337017397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>oslomet.testing.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/testing$AdminKundeControllerTest.ic" NAME="AdminKundeControllerTest Coverage Results" MODIFIED="1647989611022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>oslomet.testing.API.*</FILTER>
+    </SUITE>
   </component>
 </project>
