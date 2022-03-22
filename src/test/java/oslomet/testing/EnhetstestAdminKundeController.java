@@ -4,16 +4,12 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.mockito.stubbing.OngoingStubbing;
-import org.springframework.web.bind.annotation.RequestBody;
 import oslomet.testing.API.AdminKundeController;
 import oslomet.testing.DAL.AdminRepository;
-import oslomet.testing.DAL.BankRepository;
-import oslomet.testing.Models.Konto;
 import oslomet.testing.Models.Kunde;
 import oslomet.testing.Sikkerhet.Sikkerhet;
+import java.lang.String;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +17,6 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.ArgumentMatchers.*;
-import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -41,7 +36,7 @@ public class EnhetstestAdminKundeController {
 
     @Test
     public void test_hentAlle_loggetInn() {
-        // given
+        // arrange
         List<Kunde> kunder = new ArrayList<>();
 
         Kunde kunde1 = new Kunde(
@@ -65,11 +60,10 @@ public class EnhetstestAdminKundeController {
         kunder.add(kunde1);
         kunder.add(kunde2);
 
-        // when
         when(sjekk.loggetInn()).thenReturn("01010110523");
         when(adminRepository.hentAlleKunder()).thenReturn(kunder);
 
-        // then
+        // act
         List<Kunde> resultat = adminKundeController.hentAlle();
 
         // assert
@@ -79,10 +73,10 @@ public class EnhetstestAdminKundeController {
 
     @Test
     public void test_hentAlle_ikkeLoggetInn() {
-        // when
+        // arrange
         when(sjekk.loggetInn()).thenReturn(null);
 
-        // then
+        // act
         List<Kunde> resultat = adminKundeController.hentAlle();
 
         // assert
@@ -179,14 +173,14 @@ public class EnhetstestAdminKundeController {
         // assert
         assertEquals("Ikke logget inn", resultat);
     }
-/*
+
     @Test
     public void test_slettKunde_loggetInn() {
         // arrange
         String personnummer = "01010110523";
 
         when(sjekk.loggetInn()).thenReturn(personnummer);
-        when(adminRepository.slettKunde(anyString()).thenReturn("OK"));
+        when(adminRepository.slettKunde(anyString())).thenReturn("OK");
 
         // act
         String resultat = adminKundeController.slett(personnummer);
@@ -194,7 +188,7 @@ public class EnhetstestAdminKundeController {
         // assert
         assertEquals("OK", resultat);
     }
-*/
+
     @Test
     public void test_slettKunde_ikkeLoggetInn() {
         // arrange
