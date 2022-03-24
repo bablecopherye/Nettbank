@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06e99e7e-42c8-4cf9-adb5-6d28784ce6f5" name="Default Changelist" comment="">
+    <list default="true" id="06e99e7e-42c8-4cf9-adb5-6d28784ce6f5" name="Default Changelist" comment="La til tester for AdminKontoController og BankController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestAdminKundeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestAdminKundeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/oslomet/testing/AdminKundeControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestSikkerhet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestSikkerhet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <recent name="oslomet.testing.API" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EnhetstestAdminKundeController">
+  <component name="RunManager" selected="JUnit.EnhetstestSikkerhet">
     <configuration name="EnhetstestAdminKundeController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <extension name="coverage">
@@ -76,22 +75,6 @@
       <option name="PACKAGE_NAME" value="oslomet.testing" />
       <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnhetstestAdminKundeController.hentAlle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oslomet.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oslomet.testing" />
-      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
-      <option name="METHOD_NAME" value="hentAlle" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,6 +126,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnhetstestSikkerhet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oslomet.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oslomet.testing" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestSikkerhet" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main_Nettbank" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="testing" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="oslomet.testing.Main_Nettbank" />
@@ -152,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnhetstestSikkerhet" />
         <item itemvalue="JUnit.EnhetstestAdminKundeController" />
         <item itemvalue="JUnit.EnhetstestBankController" />
         <item itemvalue="JUnit.EnhetstestAdminKundeController.hentAlle_loggetInn" />
         <item itemvalue="JUnit.EnhetstestAdminKundeController.hentAlle_ikkeLoggetInn" />
-        <item itemvalue="JUnit.EnhetstestAdminKundeController.hentAlle" />
       </list>
     </recent_temporary>
   </component>
@@ -179,15 +177,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testing$EnhetstestBankController.ic" NAME="EnhetstestBankController Coverage Results" MODIFIED="1647337017397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/testing$EnhetstestAdminKundeController.ic" NAME="EnhetstestAdminKundeController Coverage Results" MODIFIED="1647990961540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>oslomet.testing.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/testing$EnhetstestAdminKundeController.ic" NAME="EnhetstestAdminKundeController Coverage Results" MODIFIED="1647990961540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/testing$EnhetstestBankController.ic" NAME="EnhetstestBankController Coverage Results" MODIFIED="1648130679282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>oslomet.testing.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/testing$AdminKundeControllerTest.ic" NAME="AdminKundeControllerTest Coverage Results" MODIFIED="1647989611022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>oslomet.testing.API.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/testing$EnhetstestAdminKontoController.ic" NAME="EnhetstestAdminKontoController Coverage Results" MODIFIED="1648130557164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>oslomet.testing.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/testing$EnhetstestSikkerhet.ic" NAME="EnhetstestSikkerhet Coverage Results" MODIFIED="1648145353135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>oslomet.testing.*</FILTER>
     </SUITE>
   </component>
 </project>

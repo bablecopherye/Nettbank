@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
+import oslomet.testing.DAL.BankRepository;
 import oslomet.testing.Sikkerhet.Sikkerhet;
 
 import javax.servlet.http.HttpSession;
@@ -27,8 +28,8 @@ public class EnhetstestSikkerhet {
     private HttpSession session;
 
     @Mock
-    // denne skal Mock'es
-    private Sikkerhet sjekk;
+    private BankRepository repository;
+
 
     @Test
     public void test_sjekkLoggetInn_OK() {
@@ -36,7 +37,7 @@ public class EnhetstestSikkerhet {
         String personnummer = "01010110523";
         String passord = "HeiHei";
 
-        when(sjekk.loggetInn()).thenReturn(personnummer, passord);
+        when(repository.sjekkLoggInn(anyString(), anyString())).thenReturn("OK");
         // when(session.setAttribute(anySet()).thenReturn("Innlogget", personnummer));
 
         // act
@@ -47,12 +48,38 @@ public class EnhetstestSikkerhet {
     }
 
     @Test
+    public void test_sjekkLoggetInn_feil() {
+        // arrange
+        String personnummer = "01010110523";
+        String passord = "HeiHei";
+
+        when(repository.sjekkLoggInn(anyString(), anyString())).thenReturn("Feil");
+
+        // act
+        String resultat = sikkerhet.sjekkLoggInn(personnummer, passord);
+
+        // assert
+        assertEquals("Feil i personnummer eller passord", resultat);
+    }
+
+    @Test
+    public void test_loggUt() {
+        // arrange
+        session.setAttribute("Innlogget", "10987654321");
+        sikkerhet.loggUt();
+
+        // act
+        String resultat = (String) session.getAttribute("Innlogget");
+
+        // assert
+        assertNull(resultat);
+    }
+
+    @Test
     public void test_sjekkLoggetInn_feilPersonnummer() {
         // arrange
         String personnummer = "01010110";
         String passord = "HeiHei";
-
-        when(sjekk.loggetInn()).thenReturn(personnummer, passord);
 
         // act
         String resultat = sikkerhet.sjekkLoggInn(personnummer, passord);
@@ -67,8 +94,6 @@ public class EnhetstestSikkerhet {
         String personnummer = "01010110523";
         String passord = "Hei";
 
-        when(sjekk.loggetInn()).thenReturn(personnummer, passord);
-
         // act
         String resultat = sikkerhet.sjekkLoggInn(personnummer, passord);
 
@@ -82,8 +107,6 @@ public class EnhetstestSikkerhet {
         String bruker = "Admin";
         String passord = "Admin";
 
-        when(sjekk.loggInnAdmin(anyString(), anyString())).thenReturn(bruker, passord);
-
         // act
         String resultat = sikkerhet.loggInnAdmin(bruker, passord);
 
@@ -96,8 +119,6 @@ public class EnhetstestSikkerhet {
         // arrange
         String bruker = "AdminMin";
         String passord = "MinMin";
-
-        when(sjekk.loggInnAdmin(anyString(), anyString())).thenReturn(bruker, passord);
 
         // act
         String resultat = sikkerhet.loggInnAdmin(bruker, passord);
