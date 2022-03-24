@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06e99e7e-42c8-4cf9-adb5-6d28784ce6f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestSikkerhet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestAdminKundeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oslomet/testing/EnhetstestAdminKundeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/oslomet/testing/AdminKundeControllerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,19 +63,36 @@
       <recent name="oslomet.testing.API" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EnhetstestAdminKundeController">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EnhetstestSikkerhet">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnhetstestSikkerhet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oslomet.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oslomet.testing" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestSikkerhet" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhetstestAdminKundeController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnhetstestSikkerhet.test_ikkeLoggetInn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <extension name="coverage">
         <pattern>
@@ -85,29 +101,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="oslomet.testing" />
-      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnhetstestAdminKundeController.hentAlle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oslomet.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oslomet.testing" />
-      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
-      <option name="METHOD_NAME" value="hentAlle" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestSikkerhet" />
+      <option name="METHOD_NAME" value="test_ikkeLoggetInn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhetstestAdminKundeController.hentAlle_ikkeLoggetInn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnhetstestSikkerhet.test_loggInnAdmin_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <extension name="coverage">
         <pattern>
@@ -116,14 +117,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="oslomet.testing" />
-      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
-      <option name="METHOD_NAME" value="hentAlle_ikkeLoggetInn" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestSikkerhet" />
+      <option name="METHOD_NAME" value="test_loggInnAdmin_OK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhetstestAdminKundeController.hentAlle_loggetInn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnhetstestSikkerhet.test_loggInnAdmin_feil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <extension name="coverage">
         <pattern>
@@ -132,14 +133,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="oslomet.testing" />
-      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestAdminKundeController" />
-      <option name="METHOD_NAME" value="hentAlle_loggetInn" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestSikkerhet" />
+      <option name="METHOD_NAME" value="test_loggInnAdmin_feil" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnhetstestBankController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnhetstestSikkerhet.test_loggetInn_OK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +149,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="oslomet.testing" />
-      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestBankController" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="oslomet.testing.EnhetstestSikkerhet" />
+      <option name="METHOD_NAME" value="test_loggetInn_OK" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EnhetstestAdminKundeController" />
-        <item itemvalue="JUnit.EnhetstestBankController" />
-        <item itemvalue="JUnit.EnhetstestAdminKundeController.hentAlle_loggetInn" />
-        <item itemvalue="JUnit.EnhetstestAdminKundeController.hentAlle_ikkeLoggetInn" />
-        <item itemvalue="JUnit.EnhetstestAdminKundeController.hentAlle" />
+        <item itemvalue="JUnit.EnhetstestSikkerhet" />
+        <item itemvalue="JUnit.EnhetstestSikkerhet.test_ikkeLoggetInn" />
+        <item itemvalue="JUnit.EnhetstestSikkerhet.test_loggetInn_OK" />
+        <item itemvalue="JUnit.EnhetstestSikkerhet.test_loggInnAdmin_feil" />
+        <item itemvalue="JUnit.EnhetstestSikkerhet.test_loggInnAdmin_OK" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +185,8 @@
       <workItem from="1647553248186" duration="9538000" />
       <workItem from="1647864561781" duration="761000" />
       <workItem from="1647943037787" duration="10031000" />
-      <workItem from="1647990175791" duration="803000" />
+      <workItem from="1647990175791" duration="1011000" />
+      <workItem from="1648053698944" duration="9255000" />
     </task>
     <servers />
   </component>
@@ -194,7 +197,10 @@
     <SUITE FILE_PATH="coverage/testing$EnhetstestBankController.ic" NAME="EnhetstestBankController Coverage Results" MODIFIED="1647337017397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>oslomet.testing.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/testing$EnhetstestAdminKundeController.ic" NAME="EnhetstestAdminKundeController Coverage Results" MODIFIED="1647990961540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/testing$EnhetstestSikkerhet.ic" NAME="EnhetstestSikkerhet Coverage Results" MODIFIED="1648139751337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>oslomet.testing.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/testing$EnhetstestAdminKundeController.ic" NAME="EnhetstestAdminKundeController Coverage Results" MODIFIED="1648118980646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>oslomet.testing.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/testing$AdminKundeControllerTest.ic" NAME="AdminKundeControllerTest Coverage Results" MODIFIED="1647989611022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
